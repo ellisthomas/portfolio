@@ -51,6 +51,9 @@ h4:before {
   background: #425BB5;
   top: 9px; }
 
+.col-md-4 {
+  border: 2px solid red; }
+
 /* General
 ==================================================*/
 body {
