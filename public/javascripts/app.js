@@ -1,0 +1,1 @@
+var app = angular.module("porfolio", ["ngAnimate", "ngRoute", "ngSanitize", "ui.botstrap"]);
