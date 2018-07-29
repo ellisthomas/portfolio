@@ -801,6 +801,18 @@ fieldset {
 /* Responsive media queries
 ==================================================*/
 
+@media  screen and (max-width: 1000px) {
+    div.card {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    div.about-border {
+        display: none;
+    }
+}
+
 @media (max-width: 991px) {
     .portfolio .categories-grid .categories ul li a {
         padding: 0 2px;
@@ -811,6 +823,12 @@ fieldset {
     .timeline-event-copy {
         width: 90%;
         left: 2em;
+    }
+}
+
+@media (max-width: 500px) {
+    h4 {
+        color: white;
     }
 }
 
@@ -833,11 +851,11 @@ fieldset {
     }
 }
 
-@media (max-width: 420px) {
+@media (max-width: 500px) {
     nav li {
         margin: 6px;
     }
     nav li a {
-        font-size: 10px;
+        font-size: 9px;
     }
 }
