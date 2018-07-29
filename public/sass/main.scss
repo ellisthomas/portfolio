@@ -65,7 +65,7 @@ h4:before {
 }
 
 .col-md-4 {
-    border: 2px solid red;
+    border: 2px solid black;
 }
 
 /* General
@@ -801,15 +801,20 @@ fieldset {
 /* Responsive media queries
 ==================================================*/
 
-@media  screen and (max-width: 1000px) {
+@media (max-width: 1000px) {
     div.card {
         display: none;
     }
 }
 
-@media screen and (max-width: 1000px) {
+@media (max-width: 1000px) {
     div.about-border {
         display: none;
+    }
+}
+@media (max-width: 1000px) {
+    body {
+        font-size: 25px;
     }
 }
 
@@ -827,7 +832,7 @@ fieldset {
 }
 
 @media (max-width: 500px) {
-    h4 {
+    h4.name {
         color: white;
     }
 }
@@ -856,6 +861,6 @@ fieldset {
         margin: 6px;
     }
     nav li a {
-        font-size: 9px;
+        font-size: px;
     }
 }
